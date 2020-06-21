@@ -1,0 +1,115 @@
+.marker{
+    width: 70px;
+    border: 1px solid #999;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 4px 0;
+    font-size: 18px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+    
+}
+
+.marker.selected{
+    background-color: #008489;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+ .showcase-2 {
+
+    width: 40%;
+  
+    margin: auto;
+    .ant-card-body {
+      padding: 0px;
+    
+  }
+  
+    .ant-card {
+      margin-top: 50px;
+      border-radius: 6px;
+      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+      transition: all 0.5s;
+      margin-left: 10%;
+  
+  
+      &:hover {
+        -moz-transform: scale(1.03);
+        -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        transform: scale(1.2);
+      }
+    }
+   
+    .ant-card-head {
+      border-bottom: 0;
+      border-radius: 6px;
+    }
+  
+    .ant-card-head-title {
+      overflow: visible !important;
+    }
+  
+  
+    .card-header {
+      position: relative;
+      overflow: hidden;
+      display: fixed;
+      border-radius: 6px;
+  
+  
+      img {
+        position: relative;
+        width: 100%;
+        border-radius: 6px;
+        box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+      }
+    }
+  
+    .card-content {
+      text-align: center;
+      padding: 10px 10px 13px 10px;
+      margin-top: 7px;
+  
+      h4 {
+        line-height: 0.5;
+        font-size: 1.3em;
+        font-weight: 300;
+      }
+  
+      p {
+        margin-top: 5px;
+        color: #999;
+        font-weight: 100;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #eee;
+      }
+    }
+  
+    .card-footer {
+  
+      display: flex;
+  
+      align-items: flex-start;
+  
+  
+  
+      h4 {
+        font-size: 1em;
+        font-weight: 300;
+      }
+  
+      .position {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        color: #999;
+        font-weight: 100;
+        
+      }
+    }
+  }
